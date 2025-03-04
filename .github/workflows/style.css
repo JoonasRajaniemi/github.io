@@ -1,0 +1,40 @@
+body {
+    background-image: url('taustakuva.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Vähintään 100% näkyvästä näytöstä */
+    margin: 0; /* Poistaa oletusmarginaalit */
+    display: flex;
+    flex-direction: column;
+}
+
+.tekstilaatikko {
+    background-color: white;  /* Valkoinen tausta */
+    padding: 20px;  /* Tilaa sisällön ympärille */
+    border-radius: 10px;  /* Pyöristetyt kulmat */
+    width: 50%;  /* Laatikon leveys (muokattavissa) */
+    margin: 20px auto;  /* Keskittää laatikon */
+    text-align: center; /* Keskittää tekstin */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Pehmeä varjo */
+}
+
+.image-container {
+    position: relative;
+    width: 80vw; 
+}
+.iso-kuva {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.pieni-kuva {
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+.video-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
