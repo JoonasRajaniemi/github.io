@@ -13,7 +13,7 @@ body {
     background-color: white;  /* Valkoinen tausta */
     padding: 20px;  /* Tilaa sisällön ympärille */
     border-radius: 10px;  /* Pyöristetyt kulmat */
-    width: 50%;  /* Laatikon leveys (muokattavissa) */
+    width: 100%;  /* Laatikon leveys (muokattavissa) */
     margin: 20px auto;  /* Keskittää laatikon */
     text-align: center; /* Keskittää tekstin */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Pehmeä varjo */
